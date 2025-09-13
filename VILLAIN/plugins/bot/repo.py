@@ -11,7 +11,7 @@ start_txt = """
 
 ┏━━━━━━━━━━━━━━━━━⧫
 ┠ ◆ **sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ:** [Click Here](https://github.com/aditya88402/Heistsnetwork)  
-┠ ◆ **ᴅᴇᴠᴇʟᴏᴘᴇʀ:** [ꪜ 𝛊 ɭ ɭ ᧘ 𝛊 𝛈](https://t.me/User_Not_available_since)
+┠ ◆ **ᴅᴇᴠᴇʟᴏᴘᴇʀ:** [༐🇹 𝐡༒ 𝐦𝐚𝐮𝐫𝐲𝐚𝐯𝐚𝐧𝐬𝐡𝐢](https://t.me/User_Not_available_since)
 ┠ ◆ **ʀᴇʟᴇᴀsᴇᴅ ʙʏ:** [@User_Not_available_since](https://t.me/User_Not_available_since)
 ┗━━━━━━━━━━━━━━━━━⧫
 
