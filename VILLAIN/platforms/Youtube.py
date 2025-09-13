@@ -15,9 +15,9 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 from youtubesearchpython.__future__ import VideosSearch, CustomSearch
 import base64
-from NOBITA_MUSIC import LOGGER
-from NOBITA_MUSIC.utils.database import is_on_off
-from NOBITA_MUSIC.utils.formatters import time_to_seconds
+from VILLAIN import LOGGER
+from VILLAIN.utils.database import is_on_off
+from VILLAIN.utils.formatters import time_to_seconds
 from config import YT_API_KEY, YTPROXY_URL as YTPROXY
 
 logger = LOGGER(__name__)
