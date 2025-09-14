@@ -6,7 +6,7 @@ from VILLAIN import app
 
 #--------------------------
 
-MUST_JOIN = "iamvillain77"
+MUST_JOIN = "TG_HEISTS"
 
 #--------------------------
 
