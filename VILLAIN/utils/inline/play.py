@@ -63,10 +63,18 @@ def stream_markup_timer(_, chat_id, played, dur):
         [
             InlineKeyboardButton(text="▷", callback_data=f"ADMIN Resume|{chat_id}"),
             InlineKeyboardButton(text="II", callback_data=f"ADMIN Pause|{chat_id}"),
+            InlineKeyboardButton(text="↻", callback_data=f"ADMIN Replay|{chat_id}"),
             InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
-         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
+         [
+             InlineKeyboardButton(text="σᴡηєʀ", url="https://t.me/User_Not_available_since"),
+             
+             InlineKeyboardButton(text="ѕᴜᴘᴘσʀᴛ", url="https://t.me/+o7_uPKxtL5hkY2Q1")
+         ],
+        [
+            InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close"),
+        ]
     ]
     return buttons
 
@@ -76,13 +84,20 @@ def stream_markup(_, chat_id):
         [
             InlineKeyboardButton(text="▷", callback_data=f"ADMIN Resume|{chat_id}"),
             InlineKeyboardButton(text="II", callback_data=f"ADMIN Pause|{chat_id}"),
+            InlineKeyboardButton(text="↻", callback_data=f"ADMIN Replay|{chat_id}"),
             InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
          ],
-        [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
+        [
+             InlineKeyboardButton(text="σᴡηєʀ", url="https://t.me/ll_NOBITA_DEFAULTERS_ll"),
+             
+             InlineKeyboardButton(text="ѕᴜᴘᴘσʀᴛ", url="https://t.me/+DRlOUMim-SdjOWJl")
+         ],
+        [
+            InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close"),
+        ]
     ]
-    return buttons
-
+    return buttons   
 
 def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
     buttons = [
@@ -227,10 +242,10 @@ def stream_markup2(_, chat_id):
         ],
 [
             InlineKeyboardButton(
-                text="ᴏᴡɴᴇʀ", url=f"https://t.me/User_Not_available_since"
+                text="ᴏᴡɴᴇʀ", url=f"https://t.me/ll_NOBITA_DEFAULTERS_ll"
             ),
             InlineKeyboardButton(
-                text="ᴄʜᴀᴛ", url=f"https://t.me/TG_HEISTS"
+                text="sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/+DRlOUMim-SdjOWJl"
             ),
         ],
 
