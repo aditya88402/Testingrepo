@@ -52,16 +52,17 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # ----------------------------------------------------------------
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
-API_URL = getenv("API_URL", 'https://tgapi.xbitcode.com') #youtube song url
-VIDEO_API_URL = getenv("VIDEO_API_URL", 'https://tgapi.xbitcode.com')
-API_KEY = getenv("API_KEY", '') # youtube song api key
+# Vars For API End Pont.
+YTPROXY_URL = getenv("YTPROXY_URL", 'https://tgapi.xbitcode.com') ## xBit Music Endpoint.
+YT_API_KEY = getenv("YT_API_KEY" , None ) ## Your API key like: 
+
 #----------------------------------------------------------------
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
 SOURCE = getenv("SOURCE", "https://t.me/User_Not_available_since")
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/aditya88402/Heistsnetwork",
+    "https://github.com/aditya88402/Testingrepo.git",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
